@@ -1,0 +1,23 @@
+
+SELECT * FROM Doctors;
+select * from patients;
+
+SELECT full_name, gender FROM Patients;
+
+SELECT * FROM Patients
+WHERE full_name='JOhn Doe';
+
+SELECT * FROM Patients
+WHERE full_name='JOhn Doe' AND gender = 'Male';
+
+SELECT * FROM Patients
+WHERE full_name LIKE '%e';   
+
+
+SELECT  payment_date 
+FROM Billing
+ORDER BY payment_date DESC;
+
+
+SELECT * FROM Patients
+LIMIT 5;
